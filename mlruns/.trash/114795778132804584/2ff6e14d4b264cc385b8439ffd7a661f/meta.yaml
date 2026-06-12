@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/114795778132804584/2ff6e14d4b264cc385b8439ffd7a661f/artifacts
+deleted_time: 1777712230789
+end_time: 1777647758568
+entry_point_name: ''
+experiment_id: '114795778132804584'
+lifecycle_stage: deleted
+run_id: 2ff6e14d4b264cc385b8439ffd7a661f
+run_name: demand_forecast_v4
+run_uuid: 2ff6e14d4b264cc385b8439ffd7a661f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777647758508
+status: 4
+tags: []
+user_id: hamzabensassi

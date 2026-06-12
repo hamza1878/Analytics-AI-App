@@ -1,0 +1,42 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "hour_of_day",
+      "day_of_week",
+      "month",
+      "is_weekend",
+      "is_peak_hour",
+      "is_night",
+      "sin_hour",
+      "cos_hour",
+      "sin_dow",
+      "cos_dow",
+      "sin_month",
+      "cos_month",
+      "avg_surge",
+      "avg_distance",
+      "avg_price",
+      "active_drivers"
+    ],
+    "data": [
+      [
+        14.0,
+        2.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.4999999999999997,
+        -0.8660254037844388,
+        0.9749279121818236,
+        -0.22252093395631434,
+        0.8660254037844387,
+        -0.4999999999999998,
+        1.19,
+        22.36,
+        18.19,
+        1.0
+      ]
+    ]
+  }
+}

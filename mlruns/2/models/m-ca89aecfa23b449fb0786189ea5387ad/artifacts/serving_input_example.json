@@ -1,0 +1,28 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "hour_of_day",
+      "day_of_week",
+      "is_weekend",
+      "sin_hour",
+      "cos_hour",
+      "sin_dow",
+      "cos_dow",
+      "avg_surge",
+      "avg_distance"
+    ],
+    "data": [
+      [
+        14.0,
+        2.0,
+        0.0,
+        -0.4999999999999997,
+        -0.8660254037844388,
+        0.9749279121818236,
+        -0.22252093395631434,
+        1.19,
+        22.36
+      ]
+    ]
+  }
+}

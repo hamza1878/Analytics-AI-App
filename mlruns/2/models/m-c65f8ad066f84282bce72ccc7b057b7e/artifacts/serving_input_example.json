@@ -1,0 +1,26 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "price_ratio",
+      "distance_ratio",
+      "surge_multiplier",
+      "driver_volume_1h",
+      "pax_volume_1h",
+      "price_delta",
+      "speed_kmh",
+      "duration_real"
+    ],
+    "data": [
+      [
+        0.15135572642654796,
+        0.21620469083155652,
+        1.01,
+        1.0,
+        2.0,
+        -41.94,
+        16.900000000000002,
+        18.0
+      ]
+    ]
+  }
+}

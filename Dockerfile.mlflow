@@ -1,0 +1,12 @@
+# FROM ghcr.io/mlflow/mlflow:v2.11.0
+# RUN pip install psycopg2-binary
+FROM ghcr.io/mlflow/mlflow:v2.11.0
+
+USER root
+
+RUN apt-get update && apt-get install -y \
+    libpq-dev gcc \
+    && pip install psycopg2-binary \
+    && apt-get clean
+
+USER mlflow

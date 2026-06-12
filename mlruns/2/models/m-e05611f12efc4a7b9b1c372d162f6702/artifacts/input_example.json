@@ -1,0 +1,1 @@
+{"columns": ["distance_km", "dist_sq", "hour_of_day", "day_of_week", "is_weekend", "sin_hour", "cos_hour", "surge_multiplier", "speed_kmh"], "data": [[2.4, 5.76, 9.0, 0.0, 1.0, 0.7071067811865476, -0.7071067811865475, 1.37, 6.857142857142857]]}

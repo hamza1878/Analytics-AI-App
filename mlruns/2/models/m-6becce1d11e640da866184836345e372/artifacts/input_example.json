@@ -1,0 +1,1 @@
+{"columns": ["distance_to_pickup_km", "hour_of_day", "day_of_week", "is_weekend", "sin_hour", "cos_hour", "driver_rating", "total_trips", "trip_distance_km", "surge_multiplier"], "data": [[3.74, 5.0, 1.0, 0.0, 0.9659258262890683, 0.25881904510252074, 5.0, 0.0, 10.4, 2.23]]}

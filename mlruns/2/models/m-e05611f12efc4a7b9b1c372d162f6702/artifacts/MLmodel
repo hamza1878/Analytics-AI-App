@@ -1,0 +1,40 @@
+artifact_path: file:///C:/Users/hamzabensassi/Desktop/moviroo-ml/moviroo-ml/mlruns/2/models/m-e05611f12efc4a7b9b1c372d162f6702/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-e05611f12efc4a7b9b1c372d162f6702
+model_size_bytes: 692954
+model_uuid: m-e05611f12efc4a7b9b1c372d162f6702
+prompts: null
+run_id: c5a3ee6d5df44f2bbfb68560dfd293c9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "distance_km", "required": true}, {"type":
+    "double", "name": "dist_sq", "required": true}, {"type": "double", "name": "hour_of_day",
+    "required": true}, {"type": "double", "name": "day_of_week", "required": true},
+    {"type": "double", "name": "is_weekend", "required": true}, {"type": "double",
+    "name": "sin_hour", "required": true}, {"type": "double", "name": "cos_hour",
+    "required": true}, {"type": "double", "name": "surge_multiplier", "required":
+    true}, {"type": "double", "name": "speed_kmh", "required": true}]'
+  outputs: '[{"type": "float", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-31 14:03:20.311651'

@@ -1,0 +1,42 @@
+name: "demand_lstm"
+backend: "tensorflow"
+max_batch_size: 256
+
+input [
+  {
+    name: "input_0"
+    data_type: TYPE_FP32
+    dims: [ 24, 9 ]   # seq_len=24, n_features=9
+  }
+]
+
+output [
+  {
+    name: "output_0"
+    data_type: TYPE_FP32
+    dims: [ 1 ]
+  }
+]
+
+dynamic_batching {
+  preferred_batch_size: [ 32, 64, 128 ]
+  max_queue_delay_microseconds: 2000
+}
+
+instance_group [
+  {
+    count: 2
+    kind: KIND_GPU
+    gpus: [ 0 ]
+  }
+]
+
+optimization {
+  execution_accelerators {
+    gpu_execution_accelerator: [
+      { name: "tensorrt"
+        parameters { key: "precision_mode" value: "FP16" }
+      }
+    ]
+  }
+}

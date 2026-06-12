@@ -1,0 +1,40 @@
+artifact_path: file:///C:/Users/hamzabensassi/Desktop/moviroo-ml/moviroo-ml/mlruns/2/models/m-f08bf78b645e444c926225345f92b06f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-f08bf78b645e444c926225345f92b06f
+model_size_bytes: 469837
+model_uuid: m-f08bf78b645e444c926225345f92b06f
+prompts: null
+run_id: 2e6ccd06278c492b82cd23b55322f0f3
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "hour_of_day", "required": true}, {"type":
+    "double", "name": "day_of_week", "required": true}, {"type": "double", "name":
+    "is_weekend", "required": true}, {"type": "double", "name": "sin_hour", "required":
+    true}, {"type": "double", "name": "cos_hour", "required": true}, {"type": "double",
+    "name": "sin_dow", "required": true}, {"type": "double", "name": "cos_dow", "required":
+    true}, {"type": "double", "name": "avg_surge", "required": true}, {"type": "double",
+    "name": "avg_distance", "required": true}]'
+  outputs: '[{"type": "float", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-31 12:09:17.856060'

@@ -1,0 +1,1 @@
+{"columns": ["hour_of_day", "day_of_week", "is_weekend", "is_peak_hour", "sin_hour", "cos_hour", "distance_km", "price_estimate", "hourly_demand", "zone_driver_count", "demand_supply_ratio"], "data": [[14.0, 2.0, 0.0, 0.0, -0.4999999999999997, -0.8660254037844388, 8.34, 48.74, 1.0, 1.0, 1.0]]}

@@ -1,0 +1,62 @@
+{
+  "run_id": "20260603_225800",
+  "started_at": "20260603_225800",
+  "updated_at": "2026-06-03T22:59:44.230445",
+  "running_step": null,
+  "steps": [
+    {
+      "id": "feature_engineering",
+      "name": "Feature Engineering Pipeline",
+      "status": "success",
+      "started_at": "2026-06-03T22:58:00.974813",
+      "finished_at": "2026-06-03T22:58:03.047872",
+      "duration_s": 2.1,
+      "error": null
+    },
+    {
+      "id": "surge_predictor",
+      "name": "Surge Predictor (US-3.3) \u2014 XGBoost + LightGBM",
+      "status": "success",
+      "started_at": "2026-06-03T22:58:03.049873",
+      "finished_at": "2026-06-03T22:58:12.655443",
+      "duration_s": 9.6,
+      "error": null
+    },
+    {
+      "id": "demand_forecast",
+      "name": "Demand Forecast \u2014 LSTM + Prophet",
+      "status": "success",
+      "started_at": "2026-06-03T22:58:12.657446",
+      "finished_at": "2026-06-03T22:58:59.135405",
+      "duration_s": 46.5,
+      "error": null
+    },
+    {
+      "id": "churn_classifier",
+      "name": "Churn Classifier \u2014 XGBoost",
+      "status": "success",
+      "started_at": "2026-06-03T22:58:59.137405",
+      "finished_at": "2026-06-03T22:59:31.021071",
+      "duration_s": 31.9,
+      "error": null
+    },
+    {
+      "id": "eta_estimator",
+      "name": "ETA Estimator \u2014 Gradient Boosting",
+      "status": "success",
+      "started_at": "2026-06-03T22:59:31.022071",
+      "finished_at": "2026-06-03T22:59:37.608608",
+      "duration_s": 6.6,
+      "error": null
+    },
+    {
+      "id": "fraud_detector",
+      "name": "Fraud Detector \u2014 Isolation Forest",
+      "status": "success",
+      "started_at": "2026-06-03T22:59:37.610608",
+      "finished_at": "2026-06-03T22:59:44.227229",
+      "duration_s": 6.6,
+      "error": null
+    }
+  ]
+}

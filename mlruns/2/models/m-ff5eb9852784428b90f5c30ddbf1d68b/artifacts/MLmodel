@@ -1,0 +1,41 @@
+artifact_path: file:///C:/Users/hamzabensassi/Desktop/moviroo-ml/moviroo-ml/mlruns/2/models/m-ff5eb9852784428b90f5c30ddbf1d68b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-ff5eb9852784428b90f5c30ddbf1d68b
+model_size_bytes: 491502
+model_uuid: m-ff5eb9852784428b90f5c30ddbf1d68b
+prompts: null
+run_id: 65f80e8ccf8a4567a2c53b2608e9aed7
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "hour_of_day", "required": true}, {"type":
+    "double", "name": "day_of_week", "required": true}, {"type": "double", "name":
+    "is_weekend", "required": true}, {"type": "double", "name": "sin_hour", "required":
+    true}, {"type": "double", "name": "cos_hour", "required": true}, {"type": "double",
+    "name": "distance_km", "required": true}, {"type": "double", "name": "price_estimate",
+    "required": true}, {"type": "double", "name": "hourly_demand", "required": true},
+    {"type": "double", "name": "zone_driver_count", "required": true}, {"type": "double",
+    "name": "demand_supply_ratio", "required": true}]'
+  outputs: '[{"type": "float", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-31 14:03:10.600741'
