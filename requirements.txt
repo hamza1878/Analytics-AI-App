@@ -1,24 +1,20 @@
-# ── CORE DATA ─────────────────────────
-numpy==1.24.3
+# Core
+numpy==1.26.4
 pandas==2.2.2
 scipy==1.12.0
 pyarrow>=14.0
 
-# ── ML ────────────────────────────────
+# ML
 scikit-learn==1.4.2
 xgboost==2.0.3
 lightgbm==4.3.0
 imbalanced-learn==0.12.0
-kafka-python
-
-# ── FORECAST ──────────────────────────
-prophet==1.1.5
-
-# ── MLOPS ─────────────────────────────
-mlflow==2.11.0
 joblib==1.4.0
 
-# ── API ───────────────────────────────
+# Forecast
+prophet==1.1.5
+
+# API
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
 pydantic==2.7.1
@@ -26,15 +22,16 @@ pydantic-settings==2.2.1
 httpx==0.27.0
 python-dotenv==1.0.1
 
-# ── DATABASE ──────────────────────────
+# Database
 sqlalchemy==2.0.30
 psycopg2-binary==2.9.9
 asyncpg==0.29.0
 redis[hiredis]==5.0.4
 
-# ── TEST ──────────────────────────────
+# Build tools
+setuptools>=70.0.0
+wheel
+
+# Tests
 pytest==8.0.0
 pytest-asyncio==0.23.6
-
-# ── DEEP LEARNING ─────────────────────
-tensorflow==2.16.1
