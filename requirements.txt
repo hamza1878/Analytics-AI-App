@@ -2,7 +2,7 @@
 numpy==1.26.4
 scipy==1.12.0
 pyarrow>=14.0
-pandas>=2.3.3
+pandas>=2.3.3,<3.0
 # ML
 scikit-learn==1.4.2
 xgboost==2.0.3
